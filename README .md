@@ -1,32 +1,5 @@
 # Guide to Build HelloWorld (Blended App) on Fluent Devnet
 
-<img src="https://images.mirror-media.xyz/publication-images/_89lCC1I0m5JlMwv14wo3.png?height=360&width=720" width="700"/>
-
-## About Fleunt
-The first blended execution network. Fluent blends Wasm, EVM and SVM apps into a unified execution environment.
-* [Twitter](https://x.com/fluentxyz)
-* [Website](https://fluent.xyz/)
-* [Discord](https://discord.gg/fluentlabs)
-* [Docs](https://docs.fluentlabs.xyz/learn/introduction/what-is-fluent)
-* [Github](https://github.com/fluentlabs-xyz)
-* [Devnet Explorer](https://blockscout.dev.thefluent.xyz/)
-
-For more information about Fluent, you can find my article "Fluent: Simplifying Blockchain Technology with Blended Execution" from [this link](https://mirror.xyz/kocality.eth/orzqskeUXS_lefo0oo99nB9r21wdKzJGp7gfquYdLlc).
-
-
-## About Guide
-This guide provides step-by-step instructions to create a Blended (HelloWorld) application on Fluent Devnet. The application consists of a Rust smart contract that prints "Hello" and a Solidity smart contract that prints "World." This setup demonstrates:
-
-- **Composability:** Integrating different programming languages (Solidity and Rust) into a single application.
-- **Interoperability:** Ensuring smooth operation between different virtual machine targets (EVM and Wasm).
-
-
-By following this guide, you will learn how to:
-
-- Combine different programming languages into one project.
-- Ensure seamless operation across various virtual machine targets.
-- Manage everything within a unified execution environment.
-
 ## Step 1: System Updates and Installation of Required Tools
 
 ### Update System Packages
