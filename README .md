@@ -1,8 +1,8 @@
 # Build HelloWorld (Blended App) on Fluent Devnet
 
-## Step 1: System Updates and Installation of Required Tools
+## Step 1: Updates and Installation of Required Tools
 
-### Update System Packages
+### Update Packages
 ```bash
 sudo apt update
 sudo apt upgrade -y
@@ -315,7 +315,7 @@ contract GreetingWithWorld {
 
 ## Step 4: Deploy Both Contracts Using Hardhat
 
-### Create the Deployment Script
+###  Deployment Script
 
 This deployment script is responsible for deploying both the Rust smart contract (compiled to Wasm) and the Solidity smart contract.
 
