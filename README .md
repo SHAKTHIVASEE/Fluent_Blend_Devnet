@@ -1,4 +1,4 @@
-# Build HelloWorld (Blended App) on Fluent Devnet
+# Build HelloWorld BLENDED App on Fluent Devnet
 
 ## Step 1: Updates and Installation of Required Tools
 
