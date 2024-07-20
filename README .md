@@ -167,9 +167,7 @@ pnpm add ethers@^5.7.2 @nomiclabs/hardhat-ethers@2.0.6
 pnpm install
 npx hardhat
 ```
-After `npx hardhat` command, it will ask us for some information, enter it as in the image below
-
-![hardhat2](https://github.com/kocality/fluent-devnet/assets/69348404/ba8d407c-6d61-4fac-b628-f170ba13e2cd)
+After `npx hardhat` command, it will ask us for some information, Select `create a typescript project` then enter and y
 
 ## Configure TypeScript and Hardhat
 
@@ -264,7 +262,7 @@ Remove the codes of the package.json with the `rm package.json` command. Then en
 ```
 
 ### Set Up Environment Variables
-Here we will enter the private key. I used my Metamask wallet. Get ETH from [Fluent Devnet Faucet](https://faucet.dev.thefluent.xyz/) to the wallet will use.
+Get ETH from [Fluent Devnet Faucet](https://faucet.dev.thefluent.xyz/) to the wallet will use.
 
 Enter your private key where it says `your-private-key-here`.
 
@@ -275,9 +273,6 @@ nano .env
 ```bash
 DEPLOYER_PRIVATE_KEY=your-private-key-here
 ```
-
-![private](https://github.com/kocality/fluent-devnet/assets/69348404/767b2ce6-caf0-4885-8f28-77f2a50d6af0)
-
 
 ## Write Solidity Contracts
 
@@ -438,9 +433,10 @@ task("get-greeting", "Fetches the greeting from the deployed GreetingWithWorld c
 ```
 
 ## Step 5: Compile and Deploy the Contracts
-After deploying the contract with the `pnpm hardhat deploy` command, we will enter the tx output we get as in the photo in the 0x.... section in the `pnpm hardhat get-greeting --contract 0x.....` code. 
+Deploy the contract with the `pnpm hardhat deploy` command, then we get the tx output like "contract depolyed at: 0x.."
 
-![deploy](https://github.com/kocality/fluent-devnet/assets/69348404/65c39233-29cf-4110-afa1-13c1edbca9e7)
+In below change the `pnpm hardhat get-greeting --contract "your deployed contact address" `
+
 
 
 ```bash
@@ -451,9 +447,9 @@ pnpm hardhat deploy
 pnpm hardhat get-greeting --contract 0x.....
 ```
 
-If you get the output you see below, it means it is done. You can search for tx through Explorer.
+Now you see `Greeting Hello, world` , it means it is done. You can search for tx through Explorer with your public address..
 
-![son](https://github.com/kocality/fluent-devnet/assets/69348404/a83133f6-3ef3-44a8-8a88-d49beef76f1f)
+https://blockscout.dev.thefluent.xyz/
 
 
 
